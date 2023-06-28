@@ -131,6 +131,53 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   line-height: 1.2;
 }
 
+.interest{
+    background-color: #F8F6EB;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  
+}
+
+.interest h2 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.interest p {
+  font-size: 18px;
+  color: #555;
+  line-height: 1.5;
+  margin-bottom: 0;
+  padding-bottom: -20px;
+}
+
+.degree{
+  background-color: #F8EBF3;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 30px;
+  padding-bottom: 35px;
+  padding-top:30px;
+
+}
+
+.degree h2 {
+font-size: 28px;
+font-weight: bold;
+color: #333;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+.degree p {
+font-size: 18px;
+color: #555;
+line-height: 1.5;
+}
 
 
 h1, .h1 {
@@ -7686,19 +7733,21 @@ textarea.form-control-lg {
 }
 
 .mb-5 {
-  margin-bottom: 3rem !important;
-  letter-spacing: 2px !important;
+  margin-bottom: 1rem !important;
+  letter-spacing: 1px !important;
 }
 .mb-6 {
   margin-bottom: 1rem !important;
   font-family: 'Lexend Peta', sans-serif;
-  letter-spacing: -5px;
+  letter-spacing: -4px;
   color: #F8F4EB;
+  font-style: normal !important;
 }
 .mb-7 {
   margin-bottom: 3rem !important;
   font-family: 'Montserrat', sans-serif;
   color: #FAEC88;
+  font-style: bold !important;
 }
 
 
@@ -10863,8 +10912,8 @@ html {
 }
 
 .content-section {
-  padding-top: 7.5rem;
-  padding-bottom: 7.5rem;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
 }
 
 #portfolio.content-section {
